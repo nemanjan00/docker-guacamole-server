@@ -1,9 +1,9 @@
-FROM base/devel:latest
+FROM finalduty/archlinux:monthly
+RUN pacman-key --populate
 
 MAINTAINER nemanjan00 nemanjan00@gmail.com
 
-RUN pacman -Syu
-RUN pacman -S squid
+RUN pacman -Syu --noconfirm squid
 
 EXPOSE 3128
 
