@@ -1,4 +1,4 @@
-# arch-squid-docker
+# docker-guacamole-server
 
-Archlinux based container for running squid with latest features and enabled sslbump. 
+Archlinux based container for running guacamole-server with latest features and guacenc. 
 
