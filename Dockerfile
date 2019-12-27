@@ -5,7 +5,7 @@ RUN pacman -Syu --noconfirm git base-devel
 
 RUN pacman -S --needed --noconfirm sudo
 
-RUN pacman -S --noconfirm pango libvorbis libwebp libpulse libvorbis openssl-1.0 libssh libvncserver
+RUN pacman -S --noconfirm pango libvorbis libwebp libpulse libvorbis openssl-1.0 libssh libvncserver ffmpeg
 
 RUN useradd builduser -m # Create the builduser
 RUN passwd -d builduser # Delete the buildusers password
